@@ -49,6 +49,7 @@ under the License.
     </js-module>
 
     <platform name="android">
+        <framework src="com.google.android.play:core:1.8.0" />
         <source-file src="src/android/AppRate.java" target-dir="src/org/pushandplay/cordova/apprate"/>
 
         <config-file target="res/xml/config.xml" parent="/*">
